@@ -1,0 +1,14 @@
+{
+	"name": "MyBP",
+	"author":  "Minicurso <erickdesales@gmail.com>",
+	"description":  "a boilerplate frontend",
+	"scripts": {
+
+	},
+	"devDependecies": { 
+
+	},
+	"dependecies":{
+
+	}
+}
