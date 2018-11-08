@@ -2,7 +2,12 @@
 	"name": "MyBP",
 	"author": "Minicurso <erickdesales@gmail.com>",
 	"description": "a boilerplate frontend",
-	"scripts": {},
+	"scripts": {
+		"build" : "npm-run-all --sequential build:views",
+		"build:views" : "pug src/views/ --out public/ --pretty -s",
+
+		"start": "npm-run-all --sequential build"
+	},
 
 	"devDependencies": {
 		"@babel/cli": "^7.1.5",
