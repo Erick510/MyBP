@@ -3,8 +3,7 @@
 	"author": "Minicurso <erickdesales@gmail.com>",
 	"description": "a boilerplate frontend",
 	"scripts": {},
-	"devDependecies": {},
-	"dependecies": {},
+
 	"devDependencies": {
 		"@babel/cli": "^7.1.5",
 		"@babel/core": "^7.1.5",
